@@ -34,3 +34,14 @@ Created a functional inventory management system that helps streamline the proce
 Future Enhancements:
 
 Implement additional features such as user authentication, graphical user interface (GUI), and advanced reporting functionalities for better inventory management.
+
+Time Complexity:
+
+1. Adding a product/supplier: O(1)
+2. Placing an order: O(n) where n is the number of products
+3. Listing orders: O(m) where m is the number of orders
+Space Complexity:
+
+1. Adding a product/supplier: O(1)
+2. Placing an order: O(1)
+3. Listing orders: O(m) where m is the number of orders

@@ -37,12 +37,10 @@ Implement additional features such as user authentication, graphical user interf
 
 Time Complexity:
 
-1. Adding a product/supplier: O(1)
-2. Placing an order: O(n) where n is the number of products
-3. Listing orders: O(m) where m is the number of orders
-   
+Adding a Product/Supplier: O(1)
+Placing an Order: O(n), where n is the number of products
+Listing Orders: O(m), where m is the number of orders
+
 Space Complexity:
 
-1. Adding a product/supplier: O(1)
-2. Placing an order: O(1)
-3. Listing orders: O(m) where m is the number of orders
+Storing Products, Suppliers, and Orders: O(n + m + k), where n is the number of products, m is the number of suppliers, and k is the number of orders

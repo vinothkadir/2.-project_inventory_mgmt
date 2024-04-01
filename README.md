@@ -40,6 +40,7 @@ Time Complexity:
 1. Adding a product/supplier: O(1)
 2. Placing an order: O(n) where n is the number of products
 3. Listing orders: O(m) where m is the number of orders
+   
 Space Complexity:
 
 1. Adding a product/supplier: O(1)
